@@ -625,6 +625,59 @@
 
 ,
         {
+            "os_name":	    "ubuntu2004_32",
+            "description":  "32-bit armhf LTS core for Raspberry Pi 3/4",
+            "release_date": "2020-04-30",
+            "supported_models": [
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev",
+                "Pi 4 Model B Rev"
+            ],            
+            "url":             "https://ubuntu.com/download/raspberry-pi",
+            "group":           "General",
+            "download_size":   483844876,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/ubuntu2004_32.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/writable.tar.xz"
+            ],
+            "nominal_size": 2705
+        }
+    
+,    
+        {
+            "os_name":	    "ubuntu2004",
+            "description":  "arm64 LTS core for Raspberry Pi 3/4",
+            "release_date": "2020-04-30",
+            "supported_models": [
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev",
+                "Pi 4 Model B Rev"
+            ],            
+            "url":             "https://ubuntu.com/download/raspberry-pi",
+            "group":           "General",
+            "download_size":   483844876,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/ubuntu2004_32.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2004_32/writable.tar.xz"
+            ],
+            "nominal_size": 2705
+        }
+    
+,
+    
+        {
             "os_name":	    "void1",
             "description":  "A void1 Linux port for ARM devices RPi1",
             "feature_level": 35644412,
@@ -652,6 +705,7 @@
         }
 
 ,
+    
         {
             "os_name":	    "void1_musl",
             "description":  "A void1_musl Linux port for ARM devices RPi1",
