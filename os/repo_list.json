@@ -19,6 +19,10 @@
 		{
 			"name" : "Sakaki",
 			"url"  : "https://isshoni.org/pinn/os/os_list_v3.json"
+		},
+		{
+			"name" : "Zetor1as",
+			"url"  : "http://raw.githubusercontent.com/Zetor1as/pinnosprivlist/master/os/os_list_v3.json"
 		}
 	]
 }
